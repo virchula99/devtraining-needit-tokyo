@@ -29,7 +29,7 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	var isEmail = validateEmailAddress(current.u_requested_for_email);
+	let isEmail = validateEmailAddress(current.u_requested_for_email);
 	if(!isEmail){
     gs.addErrorMessage(current.u_requested_for_email + " is not a valid email address.  You must provide a valid email address.");
     current.setAbortAction(true);

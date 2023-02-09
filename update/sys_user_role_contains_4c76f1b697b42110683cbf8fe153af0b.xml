@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_967078_innovate.countries_user" name="x_967078_innovate.countries_user">4a0a368197346110683cbf8fe153af12</contains>
+        <role display_value="x_58872_needit.admin" name="x_58872_needit.admin">f58539f297b42110683cbf8fe153af37</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-07 16:33:14</sys_created_on>
+        <sys_id>4c76f1b697b42110683cbf8fe153af0b</sys_id>
+        <sys_name>x_967078_innovate.countries_user.x_58872_needit.admin</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_user_role_contains_4c76f1b697b42110683cbf8fe153af0b</sys_update_name>
+    </sys_user_role_contains>
+</record_update>

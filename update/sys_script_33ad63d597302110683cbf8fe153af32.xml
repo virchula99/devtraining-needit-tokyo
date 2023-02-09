@@ -34,7 +34,7 @@
   var isToday = niutils.isDateToday(current.u_when_needed);
   
   // If the isDatePast method returns true, the date is in the past.
-  if(isToday == true){
+  if(isToday){
     gs.addErrorMessage("You cannot submit NeedIt requests for today.");
     current.setAbortAction(true);
   }

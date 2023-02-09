@@ -12,16 +12,8 @@ NeedItUtils.prototype = {
 	isDateToday : function(strDate){
 		var rightnow = new GlideDateTime();
 		var testdate = new GlideDateTime(strDate);
-		var today = rightnow.getLocalDate();
-        var istoday = testdate.getLocalDate();
-		if(today.compareTo(istoday) == 0){
-      return true;
-    }
-    else {
-      return false;
-    }
+return (rightnow.getLocalDate().compareTo(testdate.getLocalDate()) == 0)? true:false;
   },
-
     type: 'NeedItUtils'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
