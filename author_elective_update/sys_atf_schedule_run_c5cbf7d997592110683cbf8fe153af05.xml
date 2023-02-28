@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_schedule_run">
+    <sys_atf_schedule_run action="DELETE">
+        <active>true</active>
+        <browser_name>any</browser_name>
+        <browser_version/>
+        <description>Run suite 'NeedIt App' on a system with this configuration:
+Any browser on any version
+Any operating system on any version</description>
+        <order>100</order>
+        <os_name>any</os_name>
+        <os_version/>
+        <schedule display_value="NeedIt App Suites">bf8b73d997592110683cbf8fe153af0a</schedule>
+        <sys_class_name>sys_atf_schedule_run</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-28 06:58:25</sys_created_on>
+        <sys_id>c5cbf7d997592110683cbf8fe153af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_schedule_run_c5cbf7d997592110683cbf8fe153af05</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 06:58:25</sys_updated_on>
+        <test_suite display_value="NeedIt App">e5ea60d197952110683cbf8fe153afb1</test_suite>
+        <watch_list>jpbryghl@guerrillamail.com</watch_list>
+    </sys_atf_schedule_run>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9a8a832adb8ad38c7d8cf22ebf96195d</instance_id>
+        <instance_name>dev59399</instance_name>
+        <name>sys_atf_schedule_run_c5cbf7d997592110683cbf8fe153af05</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_schedule_run"><sys_atf_schedule_run action="INSERT_OR_UPDATE"><active>true</active><browser_name>any</browser_name><browser_version/><description>Run suite 'NeedIt App' on a system with this configuration:
+Any browser on any version
+Any operating system on any version</description><order>100</order><os_name>any</os_name><os_version/><schedule display_value="NeedIt App Suites">bf8b73d997592110683cbf8fe153af0a</schedule><sys_class_name>sys_atf_schedule_run</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-28 06:58:25</sys_created_on><sys_id>c5cbf7d997592110683cbf8fe153af05</sys_id><sys_mod_count>0</sys_mod_count><sys_name>100</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_schedule_run_c5cbf7d997592110683cbf8fe153af05</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-28 06:58:25</sys_updated_on><test_suite display_value="NeedIt App">e5ea60d197952110683cbf8fe153afb1</test_suite><watch_list>jpbryghl@guerrillamail.com</watch_list></sys_atf_schedule_run></record_update>]]></payload>
+        <payload_hash>1871651949</payload_hash>
+        <record_name>100</record_name>
+        <reverted_from/>
+        <source>ff828c7097246110683cbf8fe153af0b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-28 06:58:25</sys_created_on>
+        <sys_id>fc4c371d97592110683cbf8fe153afd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18696d0b4ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 06:58:25</sys_updated_on>
+        <type>Scheduled Suite Run</type>
+        <update_guid>384c371d27592110f414d708e569acd3</update_guid>
+        <update_guid_history>384c371d27592110f414d708e569acd3:1871651949</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-28 07:07:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_schedule_run">sys_atf_schedule_run</sys_db_object>
+        <sys_id>81eaea52059f4e249e90254ebb151389</sys_id>
+        <sys_metadata>c5cbf7d997592110683cbf8fe153af05</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_schedule_run_c5cbf7d997592110683cbf8fe153af05</sys_update_name>
+        <sys_update_version display_value="sys_atf_schedule_run_c5cbf7d997592110683cbf8fe153af05">fc4c371d97592110683cbf8fe153afd3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-28 07:07:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

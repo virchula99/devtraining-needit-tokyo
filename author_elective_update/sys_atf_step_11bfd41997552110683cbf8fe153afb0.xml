@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Log">7665589d97152110683cbf8fe153aff2</copied_from>
+        <description>Log: {{Step 2: Record Insert.Record}} inserting was fail</description>
+        <display_name>Log</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-27 14:54:48</sys_created_on>
+        <sys_id>11bfd41997552110683cbf8fe153afb0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_11bfd41997552110683cbf8fe153afb0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-27 15:25:32</sys_updated_on>
+        <table/>
+        <test display_value="When needed - Past">89bf50d597552110683cbf8fe153afc3</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=11bfd41997552110683cbf8fe153afb0"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>11bfd41997552110683cbf8fe153afb0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-27 14:54:48</sys_created_on>
+        <sys_id>d9bfd41997552110683cbf8fe153afbd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-27 15:19:26</sys_updated_on>
+        <value>{{step['99bfd41997552110683cbf8fe153af86'].record_id}} inserting was fail</value>
+        <variable display_value="Log">523c79985f30220012b44adb7f46663a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=11bfd41997552110683cbf8fe153afb0"/>
+    <sys_element_mapping action="DELETE">
+        <field>log</field>
+        <id>11bfd41997552110683cbf8fe153afb0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-27 14:54:48</sys_created_on>
+        <sys_id>51bfd41997552110683cbf8fe153afbe</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-27 15:19:26</sys_updated_on>
+        <table>var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e</table>
+        <value>{{step['99bfd41997552110683cbf8fe153af86'].record_id}} inserting was fail</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>9a8a832adb8ad38c7d8cf22ebf96195d</instance_id>
+        <instance_name>dev59399</instance_name>
+        <name>sys_atf_step_11bfd41997552110683cbf8fe153afb0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Log">7665589d97152110683cbf8fe153aff2</copied_from><description>Log: {{Step 2: Record Insert.Record}} inserting was fail</description><display_name>Log</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-27 14:54:48</sys_created_on><sys_id>11bfd41997552110683cbf8fe153afb0</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Log</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_11bfd41997552110683cbf8fe153afb0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-27 15:25:32</sys_updated_on><table/><test display_value="When needed - Past">89bf50d597552110683cbf8fe153afc3</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=11bfd41997552110683cbf8fe153afb0"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>11bfd41997552110683cbf8fe153afb0</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-27 14:54:48</sys_created_on><sys_id>d9bfd41997552110683cbf8fe153afbd</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-27 15:19:26</sys_updated_on><value>{{step['99bfd41997552110683cbf8fe153af86'].record_id}} inserting was fail</value><variable display_value="Log">523c79985f30220012b44adb7f46663a</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=11bfd41997552110683cbf8fe153afb0"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>log</field><id>11bfd41997552110683cbf8fe153afb0</id><sys_created_by>admin</sys_created_by><sys_created_on>2023-02-27 14:54:48</sys_created_on><sys_id>51bfd41997552110683cbf8fe153afbe</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-02-27 15:19:26</sys_updated_on><table>var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e</table><value>{{step['99bfd41997552110683cbf8fe153af86'].record_id}} inserting was fail</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>1399336127</payload_hash>
+        <record_name>Log</record_name>
+        <reverted_from/>
+        <source>ff828c7097246110683cbf8fe153af0b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-27 15:25:32</sys_created_on>
+        <sys_id>63b660dd97552110683cbf8fe153afa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186937aa0ad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-27 15:25:32</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>6bb660dd095521104b110401614950a8</update_guid>
+        <update_guid_history>6bb660dd095521104b110401614950a8:1399336127,5255a85d2f5521106a192e03d689e066:1409993344,51bfd4196e5521104fe2da66381026c5:169685187,99bfd4191c552110e8f06bdd6aead9bf:-467643023</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-27 15:25:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>60f5365cf1c74ac49343b9d1cfa331c4</sys_id>
+        <sys_metadata>11bfd41997552110683cbf8fe153afb0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_11bfd41997552110683cbf8fe153afb0</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_11bfd41997552110683cbf8fe153afb0">63b660dd97552110683cbf8fe153afa9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-27 15:25:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
